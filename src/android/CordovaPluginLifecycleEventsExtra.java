@@ -21,7 +21,7 @@ public class CordovaPluginLifecycleEventsExtra extends CordovaPlugin {
 	 * @param webView [description]
 	 */
     @Override
-    protected void initialize(CordovaInterface cordova, CordovaWebView webView) {
+    public void initialize(CordovaInterface cordova, CordovaWebView webView) {
 		super.initialize(cordova, webView);
     }
 
